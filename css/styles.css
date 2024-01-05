@@ -315,8 +315,8 @@ img {
   justify-content: center;
 }
 .link-style:hover {
-  color: var(--blue2);
+  background-color: var(--blue2);
 }
 .link-style:focus {
-  color: var(--blue2);
+  background-color: var(--blue2);
 }
