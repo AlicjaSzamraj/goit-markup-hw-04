@@ -323,3 +323,35 @@ img {
 .icons {
   fill: var(--white2);
 }
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.list-section-five {
+  display: flex;
+  gap: 24px;
+}
+.point-customers {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+.link-style-customer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border: 4px;
+  display: flex;
+  justify-content: center;
+  color: #8e8f99;
+}
+.link-style-customer:hover {
+  border-color: var(--blue2);
+  color: var(--blue2);
+}
+.link-style-customer:focus {
+  border-color: var(--blue2);
+  color: var(--blue2);
+}
+.icons-customer {
+  fill: currentColor;
+}
