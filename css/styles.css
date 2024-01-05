@@ -74,6 +74,15 @@ img {
 .section-one {
   background-color: var(--dark_grey1);
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/PeopleOffice.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .header-section-one {
   font-size: 56px;
@@ -119,7 +128,7 @@ img {
 }
 .paragraphs {
   color: var(--dark_grey2);
-  font-family: Roboto; sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -186,10 +195,8 @@ img {
 }
 .main-header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 
-   0px 2px 1px rgba(46, 47, 66, 0.08),
-   0px 1px 1px rgba(46, 47, 66, 0.16),
-   0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .top-elements {
   display: flex;
@@ -277,4 +284,3 @@ img {
   border: 1px solid var(--white3);
   border-top: none;
 }
-
