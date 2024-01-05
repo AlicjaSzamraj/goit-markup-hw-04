@@ -339,10 +339,11 @@ img {
   width: 100%;
   height: 100%;
   border: 1px solid #8e8f99;
-  border: 4px;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   color: #8e8f99;
+  align-items: center;
 }
 .link-style-customer:hover {
   border-color: var(--blue2);
