@@ -320,3 +320,6 @@ img {
 .link-style:focus {
   background-color: var(--blue2);
 }
+.icons {
+  fill: var(--white2);
+}
