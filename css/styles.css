@@ -94,6 +94,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: auto;
 }
 .header-section-one {
   font-size: 56px;
