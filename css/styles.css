@@ -356,3 +356,26 @@ img {
 .icons-customer {
   fill: currentColor;
 }
+.icons-footer {
+  display: flex;
+  align-items: baseline;
+}
+.logo-and-p {
+  margin-right: 120px;
+}
+.p-social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white1);
+  margin-bottom: 16px;
+}
+.list-social-media {
+  display: flex;
+  gap: 16px;
+}
+.icons-socialmedia{
+  fill: var(--white2);
+}
+
