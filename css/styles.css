@@ -378,4 +378,9 @@ img {
 .icons-socialmedia{
   fill: var(--white2);
 }
-
+.other-style:hover {
+  background-color: #31d0aa;
+}
+.other-style:focus {
+  background-color: #31d0aa;
+}
